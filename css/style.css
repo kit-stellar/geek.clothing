@@ -49,7 +49,7 @@ section > article {
 }
 #preloader {
     z-index: 100;
-    background-image: url(/assets/icons/loading.gif);
+    background-image: url(assets/icons/loading.gif);
     background-color: #1c273a;
     background-repeat: no-repeat;
     background-position: center;
@@ -83,7 +83,7 @@ section > article {
     margin-top: 1rem;
 }
 .kit-banner {
-    background-image: url(/assets/images/site-banner.jpg);
+    background-image: url(assets/images/site-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -137,7 +137,7 @@ a {
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    background-image: url(/assets/images/intro-background.gif);
+    background-image: url(assets/images/intro-background.gif);
     background-repeat:no-repeat;
     background-size: cover;
 }
@@ -159,37 +159,37 @@ a {
     padding: 25% 25% 25% 5%;
 }
 .offset-background {
-    background-image: url(/assets/category-offset/front.jpg);
+    background-image: url(assets/category-offset/front.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .begood-background {
-    background-image: url(/assets/category-begood/front.jpg);
+    background-image: url(assets/category-begood/front.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .overdose-background {
-    background-image: url(/assets/category-overdose/front.jpg);
+    background-image: url(assets/category-overdose/front.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .arcade-background {
-    background-image: url(/assets/category-arcade/front.jpg);
+    background-image: url(assets/category-arcade/front.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .otaku-background {
-    background-image: url(/assets/category-otaku/front.png);
+    background-image: url(assets/category-otaku/front.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .original-background {
-    background-image: url(/assets/category-original/front.jpg);
+    background-image: url(assets/category-original/front.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
