@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+@media screen and (width < 330px) {
+    #logo_navbar {
+        display: none !important;
+    }
+}
+
+:root {
+    --main-color: #1cbdb8;
+    --a-color: #D83F31;
+    --b-color: #E9B824;
+    --c-color: #EE9322;
+}
+
+* {
+    outline: solid2px lime;
+}
+/* for animation frameworks */
+
+/* custom style */
+html {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+body {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+#introduction {
+    scroll-margin: 4.3em;
+    scroll-snap-align: start;
+}
+#banner {
+    scroll-margin: 4.3em;
+    scroll-snap-align: start;
+}
+#contact {
+    scroll-margin: 4.3em;
+    scroll-snap-align: start;
+}
+footer {
+    scroll-snap-align: start;
+}
+section > article {
+    scroll-margin: 4.3em;
+    scroll-snap-align: start;
+}
+#preloader {
+    z-index: 100;
+    background-image: url(/assets/icons/loading.gif);
+    background-color: #1c273a;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+
+}
+.kit-default-font {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.kit-default-fsize {
+    font-size: clamp(1rem, 1.3vw, 1.3rem);
+}
+.kit-header-font {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+.kit-fix-logo { /*weird logo margin problem*/
+    max-height: 50px; 
+    margin-top: -10px;
+}
+.kit-nav-shadow {
+    box-shadow: 0px 15px 15px -3px rgba(0,0,0,0.1);
+}
+.kit-main-spacing {
+    margin-top: 1rem;
+}
+.kit-banner {
+    background-image: url(/assets/images/site-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+}
+.kit-banner-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.kit-banner-desc{
+    color: white;
+    text-align: center;
+}
+.kit-banner-button {
+    color: white;
+    background-color: var(--main-color);
+    box-shadow: 6px 8px 0px 0px rgba(0, 0, 0, 0.4);
+    border: none;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
+    margin-top: 30px;
+}
+.kit-banner-button:hover {
+    color: black;
+    background-color: var(--b-color);
+    transition: background-color 0.3s ease;
+}
+.kit-intro-button {
+    color: black;
+    background-color: var(--b-color);
+    box-shadow: 6px 8px 0px 0px rgba(0, 0, 0, 0.4);
+    border: none;
+    text-align: center;
+    display: block;
+    padding: 1rem;
+    margin-top: 30px;
+}
+.kit-intro-button:hover {
+    color: white;
+    background-color: var(--a-color);
+    transition: background-color 0.3s ease;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.kit-intro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-image: url(/assets/images/intro-background.gif);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.kit-intro > p {
+    color: black;
+}
+.kit-card-size {
+    width: 100%;
+}
+.kit-card-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.kit-card-overlay {
+    background-color: rgba(255, 255, 255, 0.7);
+    background-size: cover;
+    padding: 25% 25% 25% 5%;
+}
+.offset-background {
+    background-image: url(/assets/category-offset/front.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.begood-background {
+    background-image: url(/assets/category-begood/front.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.overdose-background {
+    background-image: url(/assets/category-overdose/front.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.arcade-background {
+    background-image: url(/assets/category-arcade/front.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.otaku-background {
+    background-image: url(/assets/category-otaku/front.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.original-background {
+    background-image: url(/assets/category-original/front.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

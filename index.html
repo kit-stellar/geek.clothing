@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/icons/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/flickity.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/flickity.pkgd.js"></script>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src = "https://cdn.jsdelivr.net/gh/KodingKhurram/animate.css-dynamic@v1.1.3/animate.min.js"></script>
+</head>
+<body oncontextmenu="return false">
+    <div id="preloader"></div>
+    <!-- navbar bs -->
+    <nav class="navbar navbar-expand-lg fixed-top kit-default-font kit-nav-shadow" style="background-color: #1cbdb8;" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/icons/logo-512.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top kit-fix-logo" id="logo_navbar">
+                <strong>Geek Clothing Co.</strong>
+            </a>
+<!-- mobile nav bs -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#collections">Collection</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#introduction">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">
+                            <img width="24" height="24" src="https://img.icons8.com/material-outlined/24/FFFFFF/shopping-bag--v1.png" alt="shopping-bag--v1"/>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">
+                            <img width="24" height="24" src="https://img.icons8.com/material-outlined/24/FFFFFF/like--v1.png" alt="like--v1"/>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div style="margin-top: 4.3em;"></div>
+<!-- main content -->
+    <main class="kit-default-font">
+        <section id="banner">
+            <div class="kit-banner">
+                <div class="kit-banner-overlay">
+                    <p class="kit-banner-desc ani_zoomIn aniUtil_active">
+                        <strong style="font-size: 2.8rem;" class="kit-header-font">The Offset — Geek V3</strong>
+                    </p>
+                    <p class="kit-banner-desc kit-default-fsize">
+                        Our laid back streetwear is here! Available in both classic black and white, set against a cool, minimalist aquamarine. 
+                    </p>
+                    <a href="#">
+                        <button class="kit-banner-button">
+                            See More
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="introduction">
+            <div class="kit-intro">
+                <p style="width: 30em;">
+                    <strong class="kit-header-font" style="font-size: clamp(2rem, 3vw, 3rem)">Geek Clothing Co.</strong> <br><br><span class="kit-default-fsize">Geek Clothing is an established brand from Peñaranda, Nueva Ecija. We empower the unique creations of indie and underground artists, providing them with a platform to share their talents.</span>
+                    <a href="#">
+                        <button class="kit-intro-button">
+                            Read More
+                        </button>
+                    </a>
+                </p>
+                <img src="assets/images/introduction.jpg" style="width: clamp(192px, 40%, 900px);" class="ani_pulse aniUtil_active aniUtil_onMouse">
+            </div>
+        </section>
+        <section id="collections">
+            <article id="offset-collections">
+                <div class="kit-card-flex">
+                    <div class="offset-background kit-card-size">
+                        <div class="kit-card-overlay" style="color: black;">
+                            <h3 class="kit-header-font ani_slideInLeft aniUtil_active" style="font-size: clamp(2rem, 3vw, 3rem)">The Offset - Geek V3 <span class="kit-default-fsize" style="background-color: var(--a-color); color: white;">NEW RELEASE</span></h3>
+                            <p class="kit-default-fsize" style="text-shadow: 2px 2px 8px #000000;">
+                            <br>
+                            The newest addition in the collection! The Offset gives a sleek and minimalist approach to classic white and black tees.
+                            <br><br>
+                            </p>
+                            <a href="#" style="color: black; border-bottom: dotted;">View Collection</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article id="begood-collections">
+                <div class="kit-card-flex">
+                    <div class="begood-background kit-card-size">
+                        <div class="kit-card-overlay" style="color: black;">
+                            <h3 class="kit-header-font ani_slideInLeft aniUtil_active" style="font-size: clamp(2rem, 3vw, 3rem)">"The Good Tee"</h3>
+                            <p class="kit-default-fsize" style="text-shadow: 2px 2px 8px #000000;">
+                            <br>
+                            "Kindness doesn't cost a thing". Our 2023 release serves as a little humble reminder to be good and do good! Join us at our <i>#SPREADKINDNESSMOVEMENT</i>
+                            <br><br>
+                            </p>
+                            <a href="#" style="color: black; border-bottom: dotted;">View Collection</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article id="overdose-collections">
+                <div class="kit-card-flex">
+                    <div class="overdose-background kit-card-size">
+                        <div class="kit-card-overlay" style="color: black;">
+                            <h3 class="kit-header-font ani_slideInLeft aniUtil_active" style="font-size: clamp(2rem, 3vw, 3rem)">Overdose</h3>
+                            <p class="kit-default-fsize" style="text-shadow: 2px 2px 8px #000000;">
+                            <br>
+                            Too much is not always good thing. 
+                            <br><br>
+                            </p>
+                            <a href="#" style="color: black; border-bottom: dotted;">View Collection</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article id="arcade-collections">
+                <div class="kit-card-flex">
+                    <div class="arcade-background kit-card-size">
+                        <div class="kit-card-overlay" style="color: black;">
+                            <h3 class="kit-header-font ani_slideInLeft aniUtil_active" style="font-size: clamp(2rem, 3vw, 3rem)">PACMAN</h3>
+                            <p class="kit-default-fsize" style="text-shadow: 2px 2px 8px #000000;">
+                            <br>
+                            A trip down to memory lane with this classic 80s arcade game PACMAN!
+                            <br><br>
+                            </p>
+                            <a href="#" style="color: black; border-bottom: dotted;">View Collection</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article id="otaku-collections">
+                <div class="kit-card-flex">
+                    <div class="otaku-background kit-card-size">
+                        <div class="kit-card-overlay" style="color: black;">
+                            <h3 class="kit-header-font ani_slideInLeft aniUtil_active" style="font-size: clamp(2rem, 3vw, 3rem)">Otaku Collections - Geek V2</h3>
+                            <p class="kit-default-fsize" style="text-shadow: 2px 2px 8px #000000;">
+                            <br>
+                            I say Geek in Japanese.
+                            <br><br>
+                            </p>
+                            <a href="#" style="color: black; border-bottom: dotted;">View Collection</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article id="original-collections">
+                <div class="kit-card-flex">
+                    <div class="original-background kit-card-size">
+                        <div class="kit-card-overlay" style="color: black;">
+                            <h3 class="kit-header-font ani_slideInLeft aniUtil_active" style="font-size: clamp(2rem, 3vw, 3rem)">Geek V1</h3>
+                            <p class="kit-default-fsize" style="text-shadow: 2px 2px 8px #000000;">
+                            <br>
+                            The OG of the OG!
+                            <br><br>
+                            </p>
+                            <a href="#" style="color: black; border-bottom: dotted;">View Collection</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section id="contact">
+            <h3 class="kit-header-font">Contact Us</h3>
+            <div style="padding-top: 900px;"></div>
+        </section>
+        <footer id="footer" style="background-color: var(--b-color);">
+            <div class="kit-card-flex" style="gap: 10%;">
+                <img src="assets/icons/logo.png" loading="lazy" style="width: 14rem;">
+                <h5 class="kit-header-font" style="text-align: center; display: block; padding: 2rem;">
+                    <a>FAQ</a><br>
+                    <a>RETURN & EXCHANGE</a><br>
+                    <a>PRIVACY POLICY</a><br>
+                    <a>TERMS & CONDITIONS</a>
+                </h5>
+                <div>
+                    <h5 class="kit-header-font" style="text-align: center;">
+                    STAY UPDATED</h5>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+            </div>
+        </footer>
+    </main>
+    
+    <script>
+        var loader = document.getElementById("preloader");
+
+        window.addEventListener("load", function(){
+            loader.style.display = "none";
+        })
+    </script>
+    <script>
+        const titles = ["Geek Clothing Co.", "#SupportLokal", "#ThinkGeek"];
+        let index = 0;
+
+        function changeTitle() {
+            document.title = titles[index++ % titles.length];
+        }
+        setInterval(changeTitle, 2000);
+        changeTitle();
+    </script>
+</body>
+</html>
