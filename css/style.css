@@ -21,6 +21,9 @@
     .kit-contact {
         width: 100% !important;
     }
+    .carousel {
+        width: 100% !important;
+    }
 }
 
 :root {
@@ -34,6 +37,25 @@
     outline: solid2px lime;
 }
 /* for animation frameworks */
+
+/* flickity customization*/
+.carousel {
+    width: 70%;
+    height: 100%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.flickity-viewport {
+    transition: height 0.2s;
+  }
+.carousel-cell {
+    width: 100%;
+}
+#geek-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* custom style */
 html {
