@@ -1,9 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 @media screen and (width < 330px) {
     #logo_navbar {
         display: none !important;
+    }
+}
+@media screen and (width < 992px) {
+    .kit-form {
+        width: 100% !important;
+        order: 1 !important;
+    }
+    #contact {
+        padding: 3vw !important;
+    }
+    #contact > div {
+        order: 0 !important;
+    }
+    .kit-contact {
+        width: 100% !important;
     }
 }
 
@@ -28,22 +44,10 @@ body {
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
 }
-#introduction {
-    scroll-margin: 4.3em;
-    scroll-snap-align: start;
-}
-#banner {
-    scroll-margin: 4.3em;
-    scroll-snap-align: start;
-}
-#contact {
-    scroll-margin: 4.3em;
-    scroll-snap-align: start;
-}
 footer {
     scroll-snap-align: start;
 }
-section > article {
+section, article {
     scroll-margin: 4.3em;
     scroll-snap-align: start;
 }
@@ -193,4 +197,36 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+#contact {
+    background-image: linear-gradient( 135deg, #FEB692 10%, #EA5455 100%);
+    padding: 3rem;
+}
+.kit-form-outline {
+    display: flex;
+    flex-wrap: wrap;
+    outline: solid 2px #fff;
+}
+.kit-form {
+    width: 50%;
+    padding: 2% 5% 2% 5%;
+    border-radius: 40px;
+    color: white;
+}
+.kit-contact {
+    width: 50%; 
+    text-align: right;
+    color: white;
+    padding: 2%;
+}
+.kit-input > input, .kit-input > input:focus, .kit-input > textarea, .kit-input > textarea:focus {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: solid 1px #fff;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color: white;
+    cursor:default;
 }

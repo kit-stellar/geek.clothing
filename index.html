@@ -35,7 +35,7 @@
                         <a class="nav-link active" href="#introduction">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Contact</a>
+                        <a class="nav-link active" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link active">
@@ -177,28 +177,68 @@
             </article>
         </section>
         <section id="contact">
-            <h3 class="kit-header-font">Contact Us</h3>
-            <div style="padding-top: 900px;"></div>
-        </section>
-        <footer id="footer" style="background-color: var(--b-color);">
-            <div class="kit-card-flex" style="gap: 10%;">
-                <img src="assets/icons/logo.png" loading="lazy" style="width: 14rem;">
-                <h5 class="kit-header-font" style="text-align: center; display: block; padding: 2rem;">
-                    <a>FAQ</a><br>
-                    <a>RETURN & EXCHANGE</a><br>
-                    <a>PRIVACY POLICY</a><br>
-                    <a>TERMS & CONDITIONS</a>
-                </h5>
-                <div>
-                    <h5 class="kit-header-font" style="text-align: center;">
-                    STAY UPDATED</h5>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            <div class="kit-form-outline">
+                <form class="kit-form">
+                    <div class="form-group kit-input">
+                        <label for="first_Name">First Name</label>
+                        <input type="text" class="form-control" id="first_Name" placeholder="">
+                    </div>
+                    <div class="form-group kit-input">
+                        <label for="last_Name">Last Name</label>
+                        <input type="text" class="form-control" id="last_Name" placeholder="">
+                    </div>
+                    <div class="form-group kit-input">
+                        <label for="email">Email</label>
+                        <input type="text" class="form-control" id="email" placeholder="">
+                    </div>
+                    <div class="form-group kit-input">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div><br><br>
+                    <button type="submit" class="btn" style="color: black; background-color: white;">Send</button>
+                </form>
+                <div class="kit-contact">
+                    <h3 class="kit-header-font" style="font-size: clamp(2rem, 3vw, 3rem)">Contact Us</h3>
+                    <p class="kit-default-fsize">
+                        <span><b>Contact</b></span><br>
+                        geek.clothing20202@gmail.com &nbsp&nbsp<i class="bi bi-envelope"></i><br><br>
+                        <span><b>Based on</b></span><br>
+                        Peñaranda, Nueva Ecija <br>
+                        <a href="https://maps.app.goo.gl/CBpCvbypZJuaATTT9" target="_blank" style="border-bottom: dotted 2px #fff;"><span style="font-size: small;">Get Directions on Google Map <i class="bi bi-geo-alt"></i></span></a>
+                    </p><br><br><br>
+                    <a href="https://www.facebook.com/GeekCo2020" target="_blank">
+                        <i class="bi bi-facebook" style="font-size: 2rem;"></i></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <a href="https://www.instagram.com/geekclothingco.ph/" target="_blank">
+                        <i class="bi bi-instagram" style="font-size: 2rem;"></i>
+                    </a>
                 </div>
             </div>
-        </footer>
+        </section>
+        <section id="geek-gallery">
+
+        </section>
     </main>
-    
+    <footer id="footer" style="background-color: var(--main-color);">
+        <div class="kit-card-flex" style="gap: 10%;">
+            <img src="assets/icons/logo.png" loading="lazy" style="width: 14rem;">
+            <h5 class="kit-header-font" style="text-align: center; display: block; padding: 2rem;">
+                <a href="#">FAQ</a><br>
+                <a href="#">RETURN & EXCHANGE</a><br>
+                <a href="#">PRIVACY POLICY</a><br>
+                <a href="#">TERMS & CONDITIONS</a>
+            </h5>
+            <div>
+                <h5 class="kit-header-font" style="text-align: center;">
+                STAY UPDATED</h5>
+                <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" style="width: 85%;">
+                    <button class="btn" type="button" id="button-addon2" style="margin: 0; padding: 0;"><i class="bi bi-arrow-right-square-fill" style="font-size:2rem; color: white;"></i></button>
+                </div>
+                
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+        </div>
+    </footer>
     <script>
         var loader = document.getElementById("preloader");
 
