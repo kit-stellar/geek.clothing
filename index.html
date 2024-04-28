@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-snap-type: y mandatory; scroll-behavior: smooth;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +14,7 @@
     <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src = "https://cdn.jsdelivr.net/gh/KodingKhurram/animate.css-dynamic@v1.1.3/animate.min.js"></script>
 </head>
-<body oncontextmenu="return false">
+<body oncontextmenu="return false" style="scroll-snap-type: y mandatory; scroll-behavior: smooth;">
     <div id="preloader"></div>
     <!-- navbar bs -->
     <nav class="navbar navbar-expand-lg fixed-top kit-default-font kit-nav-shadow" style="background-color: #1cbdb8;" data-bs-theme="dark">
@@ -96,7 +96,7 @@
                             The newest addition in the collection! The Offset gives a sleek and minimalist approach to classic white and black tees.
                             <br><br>
                             </p>
-                            <a href="#" style="color: black; border-bottom: dotted;"><b>View Collection</b></a>
+                            <a href="./html/collections/offset.html" style="color: black; border-bottom: dotted;"><b>View Collection</b></a>
                         </div>
                     </div>
                 </div>
@@ -111,7 +111,7 @@
                             "Kindness doesn't cost a thing". Our 2023 release serves as a little humble reminder to be good and do good! Join us at our <i>#SPREADKINDNESSMOVEMENT</i>
                             <br><br>
                             </p>
-                            <a href="#" style="color: black; border-bottom: dotted;"><b>View Collection</b></a>
+                            <a href="./html/collections/begood.html" style="color: black; border-bottom: dotted;"><b>View Collection</b></a>
                         </div>
                     </div>
                 </div>
@@ -126,7 +126,7 @@
                             Too much is not always good thing. 
                             <br><br>
                             </p>
-                            <a href="#" style="color: black; border-bottom: dotted;"><b>View Collection</b></a>
+                            <a href="./html/collections/overdose.html" style="color: black; border-bottom: dotted;"><b>View Collection</b></a>
                         </div>
                     </div>
                 </div>
@@ -135,13 +135,13 @@
                 <div class="kit-card-flex">
                     <div class="arcade-background kit-card-size">
                         <div class="kit-card-overlay" style="color: black;">
-                            <h3 class="kit-header-font ani_slideInLeft aniUtil_active" style="font-size: clamp(2rem, 3vw, 3rem)">PACMAN</h3>
+                            <h3 class="kit-header-font ani_slideInLeft aniUtil_active" style="font-size: clamp(2rem, 3vw, 3rem)">PACMAN <span class="kit-default-fsize" style="background: #333; color: white;">NOT AVAILABLE</span></h3>
                             <p class="kit-default-fsize" style="text-shadow: 2px 2px 8px #000000;">
                             <br>
                             A trip down to memory lane with this classic 80s arcade game PACMAN!
                             <br><br>
                             </p>
-                            <a href="#" style="color: black; border-bottom: dotted;"><b>View Collection</b></a>
+                            <a href="./html/collections/arcade.html" style="color: black; border-bottom: dotted;"><b>View Collection</b></a>
                         </div>
                     </div>
                 </div>
@@ -156,7 +156,7 @@
                             I say Geek in Japanese.
                             <br><br>
                             </p>
-                            <a href="#" style="color: black; border-bottom: dotted;"><b>View Collection</b></a>
+                            <a href="/html/collections/otaku.html" style="color: black; border-bottom: dotted;"><b>View Collection</b></a>
                         </div>
                     </div>
                 </div>
@@ -171,7 +171,7 @@
                             The OG of the OG!
                             <br><br>
                             </p>
-                            <a href="#" style="color: black; border-bottom: dotted;"><b>View Collection</b></a>
+                            <a href="./html/collections/geekv1.html" style="color: black; border-bottom: dotted;"><b>View Collection</b></a>
                         </div>
                     </div>
                 </div>
@@ -264,8 +264,8 @@
         <div class="kit-card-flex" style="gap: 10%;">
             <img src="assets/icons/logo.png" loading="lazy" style="width: 14rem;">
             <h5 class="kit-header-font" style="text-align: center; display: block; padding: 2rem;">
-                <a href="#">FAQ</a><br>
-                <a href="#">RETURN & EXCHANGE</a><br>
+                <a href="#">SITE CREDIT</a><br>
+                <a href="#">SITEMAP</a><br>
                 <a href="#">PRIVACY POLICY</a><br>
                 <a href="#">TERMS & CONDITIONS</a>
             </h5>
@@ -288,7 +288,7 @@
         })
     </script>
     <script>
-        const titles = ["Geek Clothing Co.", "#SupportLokal", "#ThinkGeek"];
+        const titles = ["Geek Clothing Co.", "#RiseFromUnderground", "#ThinkGeek"];
         let index = 0;
 
         function changeTitle() {
