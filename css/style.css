@@ -46,6 +46,12 @@
     .carousel-cell-2 {
         width: 50% !important;
     }
+    .kit-credit-parent {
+        text-align: center !important;
+    }
+    .kit-credit-grid {
+        grid-template-columns: 1fr !important;
+    }
 }
 
 :root {
@@ -117,6 +123,32 @@ footer { scroll-snap-align: start; }
 section, article {
     scroll-margin: 4.3em;
     scroll-snap-align: start;
+}
+body {
+    --sb-track-color: #232E33;
+    --sb-thumb-color: #1cbdb8;
+    --sb-size: 12px;
+}
+body::-webkit-scrollbar {
+    width: var(--sb-size)
+}
+  
+body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 1px;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 1px;
+    border: 3px solid #232E33;
+}
+  
+@supports not selector(::-webkit-scrollbar) {
+    body {
+      scrollbar-color: var(--sb-thumb-color)
+                       var(--sb-track-color);
+    }
 }
 .kit-default-font {
     font-family: "Montserrat", sans-serif;
@@ -295,4 +327,61 @@ a {
     color: #fff;
     background: var(--main-color);
     padding: 8px;
+}
+.kit-about-bg {
+    background-image: url(../assets/images/introduction.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+.kit-about-content {
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.1px);
+    -webkit-backdrop-filter: blur(9.1px);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    padding: 50px;
+}
+.kit-credit-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    padding: 10px;
+}
+.kit-credit-bg {
+    background-color: #e5e5f7;
+    background-image: radial-gradient(#1700f8 2px, #e5e5f7 2px);
+    background-size: 40px 40px;
+}
+.kit-credit-parent {
+    width: clamp(300px, 50%, 900px); 
+    text-align: right; 
+    padding: 15px;
+}
+.credit-glass {
+    background: rgba(0, 0, 0, 0.37);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.4px);
+    -webkit-backdrop-filter: blur(4.4px);
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    width: 100%;
+    border-radius: 1rem; 
+    padding: 10px;
+}
+.kit-header-credit-dev {
+    font-size: clamp(2rem, 3vw, 3rem); 
+    display: block; 
+    width: 100%; 
+    margin-top: 20px; 
+    text-align: center; 
+    background: #333; 
+    color: #fff;
+}
+.sitemap-link {
+    color: #000;
 }
