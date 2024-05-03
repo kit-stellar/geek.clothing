@@ -57,6 +57,11 @@
     <!-- main content -->
     <main class="kit-default-font">
         <section>
+            <div id="myDiv" style="background: pink; padding: 10px 10px 1px 10px">
+                <p><b>Note:</b> This is not a real 'Privacy Policy' and is only used for the sake of demonstration.
+                    <button id="hideButton" style="background: transparent; border: none; float: right; margin-right: 50px;"><i class="bi bi-x-lg" style="font-size: 1.3rem;"></i></button>
+                </p>
+            </div>
             <h1 class="kit-header-font">Privacy Policy</h1>
             <hr>
             <p class="kit-default-fsize">
@@ -130,6 +135,14 @@
         window.addEventListener("load", function(){
             loader.style.display = "none";
         })
+    </script>
+    <script>
+        const myDiv = document.getElementById("myDiv");
+        const hideButton = document.getElementById("hideButton");
+
+        hideButton.addEventListener("click", function() {
+            myDiv.style.display = "none";
+        });
     </script>
     </body>
 </html>
